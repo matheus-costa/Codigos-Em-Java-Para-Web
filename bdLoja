@@ -1,0 +1,5 @@
+CREATE TABLE vendas (
+id SERIAL PRIMARY KEY,
+item VARCHAR ( 30 ) NOT NULL,
+valor NUMERIC NOT NULL
+);
