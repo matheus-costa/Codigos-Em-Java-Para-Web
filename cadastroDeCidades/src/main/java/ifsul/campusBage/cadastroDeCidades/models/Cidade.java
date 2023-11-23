@@ -21,7 +21,7 @@ public class Cidade implements Serializable {
    @Column(nullable = false)
     private String estado;
  
-   protected Cidade() {
+   public Cidade() {
    } 
  
    public Cidade(String nome, String estado) {
